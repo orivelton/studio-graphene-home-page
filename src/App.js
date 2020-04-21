@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.scss';
 import Home from './sections/Home';
+import Nav from './components/Nav';
 
 const App = () => {
   return (
     <div className="content">
+      <Nav />
       <Home />
     </div>
   );

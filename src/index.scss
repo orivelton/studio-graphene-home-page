@@ -1,1 +1,6 @@
+* {margin: 0; padding: 0;}
+
+@import './assets/scss/variables.scss';
 @import './assets/scss/utils/text.scss';
+@import './assets/scss/utils/functions.scss';
+@import './App.scss';
