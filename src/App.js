@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.scss';
+import Home from './sections/Home';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="content">
+      <Home />
     </div>
   );
 }
