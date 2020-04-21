@@ -1,0 +1,10 @@
+.stamp {
+  background: red;
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  &__text {
+    font-weight: bold;
+  }
+}
