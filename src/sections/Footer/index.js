@@ -27,7 +27,7 @@ const Footer = () => {
 
         </div>
         <div>
-          <Title textTop={'THIS IS THE'} text={'Logo'}/>
+          <Title textTop={'THIS IS THE'} text={'Logo'} colorSecondary />
         </div>
       </div>
 

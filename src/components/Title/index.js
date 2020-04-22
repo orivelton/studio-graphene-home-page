@@ -1,8 +1,8 @@
 import React from 'react';
 import './Title.scss';
 
-const Title = ({textTop, text, textBottom, lineWhite}) => (
-  <div className="title uppercase">
+const Title = ({textTop, text, textBottom, lineWhite, colorSecondary}) => (
+  <div className={colorSecondary ? 'title title--secondary uppercase': 'title uppercase'}>
     <h3 className="title__top" >
       {textTop && textTop}
       {text && <span className={lineWhite ? 'title__text title__text--line-white ': 'title__text'}>{text}</span>}
