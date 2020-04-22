@@ -11,7 +11,11 @@
   position: relative;
   padding: 0 18px;
   &__top {
+    font-size: 35px;
     line-height: 0.9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   &__text {
@@ -20,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 62px;
     &::before {
       content: '';
       background: $primary;

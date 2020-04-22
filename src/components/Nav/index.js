@@ -5,14 +5,14 @@ import Logo from '../Logo/Logo';
 
 const Nav = () => {
   return (
-    <nav class="header">
+    <nav className="header">
       <ul className="navigation">
         <li>
           <Logo />
         </li>
         {
           itemMenu.map(({name, href, title}) => (
-            <li className="navigation__item">
+            <li className="navigation__item" key={name}>
               <a className="navigation__link uppercase" href={href} title={title}>{name}</a>
             </li>
           ))
