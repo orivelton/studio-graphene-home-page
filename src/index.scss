@@ -13,6 +13,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('./assets/fonts/GillSans.woff2') format('woff2'),
+      url('./assets/fonts/GillSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: 'DIN Condensed', Arial, sans-serif;
 }

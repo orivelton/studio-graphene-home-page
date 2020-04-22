@@ -1,0 +1,54 @@
+@import '../../assets/scss/helper.scss';
+
+.form {
+  display: flex;;
+  text-transform: uppercase;
+  flex-direction: row;
+  position: relative;
+  &__box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__label {
+    color: $night-rider;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+  }
+
+  &__input {
+    border: 0;
+    border-bottom: 1px solid $night-rider;
+    background: transparent;
+    padding-bottom: 10px;
+    &::placeholder {
+      font-family: 'Gill Sans';
+      color: $grey;
+      font-size: 15px;
+      opacity: 0.3;
+      font-weight: 100;
+    }
+  }
+
+  &__select {
+    border: 0;
+    border-bottom: 1px solid $night-rider;
+    background: transparent;
+    padding-bottom: 10px;
+  }
+
+  &__btn {
+    border: 0;
+    background: $night-rider;
+    color: $cinderella;
+    font-size: 18px;
+    padding: 8.5px 16.6px 3.5px 16.6px;
+    width: fit-content;
+    font-weight: bold;
+  }
+}
