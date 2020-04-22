@@ -23,7 +23,7 @@ const FormContact = () => (
       <label className="form__label" htmlFor="surname">Surname</label>
       <input className="form__input" id="surname" type="text" placeholder="Surname"/>
 
-      <label className="form__label" htmlFor="email">email</label>
+      <label className="form__label" htmlFor="email">EMAIL ADDRESS</label>
       <input className="form__input" id="email" type="email" placeholder="email"/>
       
       <label className="form__label" htmlFor="hear">Wherw did you hear about us?</label>
