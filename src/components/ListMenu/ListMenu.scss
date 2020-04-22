@@ -17,6 +17,12 @@
     padding: 0 38px;
   }
 
+  &__name {
+    font-size: 14px;
+    color: $night-rider;
+    margin-bottom: 8px;
+  }
+
   &__title {
     font-size: 62px;
     line-height: 0.9;
@@ -24,7 +30,9 @@
   }
 
   &__description {
+    font-family: 'Gill Sans';
     color: $grey;
+    font-size: 15px;
   }
 
   &__price {

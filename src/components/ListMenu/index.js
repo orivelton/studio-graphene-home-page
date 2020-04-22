@@ -6,7 +6,7 @@ const ListMenu = () => {
 
   const buildItem = ({title, description, price}) => (
     <div className="list-menu__item">
-      <p>{title}</p>
+      <p className="list-menu__name">{title}</p>
       <span className="list-menu__description">{description}</span>
       <p className="list-menu__price">€{price}</p>
     </div>
