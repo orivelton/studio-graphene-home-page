@@ -1,4 +1,5 @@
 @import '../../assets/scss/helper.scss';
+
 .our-menu {
   position: relative;
   background: $white-smoke;
@@ -9,25 +10,5 @@
   &__title {
     position: absolute;
     top: 91px;
-  }
-}
-
-.list-menu {
-  display: flex;
-  flex-direction: row;
-
-  &__type {
-    list-style: none;
-    width: 268px;
-    border-right: 1px solid $very-light-grey;
-    &:last-of-type {
-      border: 0;
-    }
-  }
-
-  &__title {
-    font-size: 62px;
-    line-height: 0.9;
-    margin-bottom: 54px;
   }
 }
