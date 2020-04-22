@@ -1,7 +1,9 @@
+@import '../../assets/scss/helper.scss';
+
 .stamp {
   background: red;
-  max-width: 100px;
-  height: 100px;
+  max-width: em(100);
+  height: em(100);
   border-radius: 50%;
 
   &__text {
