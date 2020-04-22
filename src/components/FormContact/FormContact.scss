@@ -4,6 +4,7 @@
   display: flex;;
   text-transform: uppercase;
   flex-direction: row;
+  position: relative;
   &__box {
     width: 250px;
     display: flex;
