@@ -5,11 +5,11 @@ import listMenu from '../../mock/listMenu';
 const ListMenu = () => {
 
   const buildItem = ({title, description, price}) => (
-    <>
+    <div className="list-menu__item">
       <p>{title}</p>
-      <span>{description}</span>
-      <p>€{price}</p>
-    </>
+      <span className="list-menu__description">{description}</span>
+      <p className="list-menu__price">€{price}</p>
+    </div>
   );
 
   return (

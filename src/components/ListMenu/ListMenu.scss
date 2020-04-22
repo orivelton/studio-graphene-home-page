@@ -3,7 +3,7 @@
 .list-menu {
   display: flex;
   flex-direction: row;
-
+  
   &__type {
     list-style: none;
     width: 268px;
@@ -12,10 +12,27 @@
       border: 0;
     }
   }
+  
+  &__item {
+    padding: 0 38px;
+  }
 
   &__title {
     font-size: 62px;
     line-height: 0.9;
     margin-bottom: 54px;
+  }
+
+  &__description {
+    color: $grey;
+  }
+
+  &__price {
+    width: max-content;
+    padding: 5px 10px 0;
+    display: flex;
+    justify-content: center;
+    border: 2px solid $cinderella;
+    margin: 12px 0 45px 0;
   }
 }
