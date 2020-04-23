@@ -50,4 +50,15 @@
     background: $primary;
     padding: 8px 9px 0;
   }
+
+  &--secondary {
+    color: $white;
+    .title__text, .title__top {
+      align-items: flex-end;
+      line-height: 1;
+      &::before {
+        visibility: hidden;
+      }
+    }
+  }
 }

@@ -2,6 +2,7 @@
 
 .navigation {
   display: flex;
+  align-items: center;
   &__item {
     list-style: none;
   }
@@ -9,12 +10,20 @@
   &__link {
     display: flex;
     text-decoration: none;
-    padding: em(28) em(40);
+    padding: 24px 40px;
     color: $night-rider;
   }
 }
 
+.header-fixed {
+  top: 0;
+}
+
 .header {
   position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
   top: 0;
 }

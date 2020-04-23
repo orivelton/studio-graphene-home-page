@@ -1,5 +1,5 @@
 import React from 'react';
-import itemMenu from '../../mock/menu';
+import {itemMenu, itemMenuRight} from '../../mock/menu';
 import './Nav.scss';
 import Logo from '../Logo/Logo';
 
@@ -12,6 +12,15 @@ const Nav = () => {
         </li>
         {
           itemMenu.map(({name, href, title}) => (
+            <li className="navigation__item" key={name}>
+              <a className="navigation__link uppercase" href={href} title={title}>{name}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <ul className="navigation">
+        {
+          itemMenuRight.map(({name, href, title}) => (
             <li className="navigation__item" key={name}>
               <a className="navigation__link uppercase" href={href} title={title}>{name}</a>
             </li>
