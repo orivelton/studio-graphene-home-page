@@ -1,16 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './CurrentSection.scss';
+import { getSection, parallax } from '../../helpers';
 
 const CurrentSection = () => {
   const [section, setSection] = useState(1);
-
-  const getSection = () => [...document.querySelectorAll('section')];
-
-  const paraxlax = () => {
-    const position = getSection()[1].getBoundingClientRect().top + -100;
-    document.querySelectorAll('.list-menu__type')[1].setAttribute('style', `margin-top: -${position}px`);
-    document.querySelectorAll('.list-menu__type')[2].setAttribute('style', `margin-top: -${position}px`);
-  }
   
   const handleScroll = () => {
     const screen = document.documentElement.clientHeight / 2 - 100;
@@ -20,10 +13,8 @@ const CurrentSection = () => {
       top <= screen && bottom >= screen && setSection(++index);
     });
 
-    paraxlax();
-  }
-
-  
+    parallax();
+  };
 
   useEffect(() => window.addEventListener('scroll', handleScroll), []);
 

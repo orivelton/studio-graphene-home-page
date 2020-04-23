@@ -1,6 +1,5 @@
 import React from 'react';
 import './FormContact.scss';
-import StyleSquare from '../StyleSquare';
 
 const FormContact = () => (
   <form className="form">
