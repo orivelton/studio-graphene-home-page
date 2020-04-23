@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.scss';
-import linksFooter from '../../mock/linksFooter';
 import Title from '../../components/Title';
+import { linksFooter } from '../../mock/mock-data';
 
 const Footer = () => {
 
