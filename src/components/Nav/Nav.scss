@@ -14,7 +14,15 @@
   }
 }
 
+.header-fixed {
+  top: 0;
+}
+
 .header {
   position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
   top: 0;
 }
