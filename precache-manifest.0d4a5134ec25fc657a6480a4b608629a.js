@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "009e65a30a92b89e2c567daf578bda92",
+    "revision": "9cd07c9d0b83067d36813b530c393ae3",
     "url": "/studio-graphene-home-page/index.html"
   },
   {
-    "revision": "3bd46ee9f83ce3bd09bb",
-    "url": "/studio-graphene-home-page/static/css/main.d9860d50.chunk.css"
+    "revision": "27acaf563ea777db4448",
+    "url": "/studio-graphene-home-page/static/css/main.eb0b445d.chunk.css"
   },
   {
     "revision": "f500a68bf8f8340b07a2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/studio-graphene-home-page/static/js/2.bfa6ec6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bd46ee9f83ce3bd09bb",
-    "url": "/studio-graphene-home-page/static/js/main.c2b3183e.chunk.js"
+    "revision": "27acaf563ea777db4448",
+    "url": "/studio-graphene-home-page/static/js/main.7a37e956.chunk.js"
   },
   {
     "revision": "3ea75057ca38ec232a27",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/studio-graphene-home-page/static/media/GillSans.727e080f.woff"
   },
   {
-    "revision": "de10f57bc0a6653cd36aa7420ad85f09",
-    "url": "/studio-graphene-home-page/static/media/bck-home.de10f57b.png"
+    "revision": "4e127eca81b88f093b15883378435cd6",
+    "url": "/studio-graphene-home-page/static/media/bck-home.4e127eca.svg"
   },
   {
     "revision": "383f8405cb7c738856490e139fd08d5b",
