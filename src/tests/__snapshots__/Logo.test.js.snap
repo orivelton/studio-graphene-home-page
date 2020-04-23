@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Logo 1`] = `
+<a
+  className="logo uppercase"
+  href="/"
+>
+  Logo
+</a>
+`;

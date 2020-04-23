@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Nav 1`] = `
+<nav
+  className="header"
+>
+  <ul
+    className="navigation"
+  >
+    <li>
+      <a
+        className="logo uppercase"
+        href="/"
+      >
+        Logo
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to About"
+      >
+        About
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Community"
+      >
+        Community
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Location"
+      >
+        Location
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Our Menu"
+      >
+        Our Menu
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Recipes"
+      >
+        Recipes
+      </a>
+    </li>
+  </ul>
+  <ul
+    className="navigation"
+  >
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Contact"
+      >
+        Contact
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link uppercase"
+        href="/"
+        title="Link to Login"
+      >
+        Login
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

@@ -5,7 +5,7 @@ import Title from '../../components/Title';
 
 const Footer = () => {
 
-  const buildItemFooter = (links) => links.map(item => <a className="pages__link" href="/" title={`Go to ${item}`}>{item}</a>);
+  const buildItemFooter = (links) => links.map((item, index) => <a key={index} className="pages__link" href="/" title={`Go to ${item}`}>{item}</a>);
 
   return (
     <footer className="footer">
@@ -14,9 +14,8 @@ const Footer = () => {
           {
             linksFooter.map((item, index) => {
               const { title, links } = item;
-
               return (
-                <div className="pages">
+                <div className="pages" key={index}>
                   <p className="pages__title uppercase">{`${title} ${++index}`}</p>
                   {buildItemFooter(links)}
                 </div>
@@ -32,9 +31,28 @@ const Footer = () => {
       </div>
 
       <div className="footer__box">
-        <p class="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
-        <ul>
-          Social
+        <p className="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
+        <ul className="social">
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconfacebook-icon" title="Go to Facebook">
+              <span className="social__name">Facebook</span>
+            </a>
+          </li>
+          <li className="social__item">
+            <a href="/" className="social__icon icon icontwitter-icon" title="Go to twitter">
+              <span className="social__name">twitter</span>
+            </a>
+          </li>
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconinstagram-icon" title="Go to instagram">
+              <span className="social__name">instagram</span>
+            </a>
+          </li>
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconLinkedin-icon" title="Go to Linkedin">
+              <span className="social__name">Linkedin</span>
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

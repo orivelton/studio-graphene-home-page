@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Title 1`] = `
+<div
+  className="title uppercase"
+>
+  <h3
+    className="title__top"
+  />
+</div>
+`;

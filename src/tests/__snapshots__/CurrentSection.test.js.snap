@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="count-section"
+>
+  <span
+    className="current-section current-section--double"
+  >
+    01
+  </span>
+  <span
+    className="current-section"
+  />
+  <span
+    className="current-section"
+  />
+</div>
+`;

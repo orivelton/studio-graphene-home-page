@@ -1,0 +1,43 @@
+@import '../../assets/scss/helper.scss';
+
+.count-section {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 297px;
+  left: 0;
+  z-index: 5;
+};
+
+.current-section {
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  width: 15px;
+  height: 18px;
+  font-size: 18px;
+  display: flex;
+  left: 27px;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    background: $night-rider;
+    display: flex;
+    width: 100%;
+    height: 2px;
+    opacity: 1;
+  }
+  
+  &--double {
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width: 30px;
+  }
+};

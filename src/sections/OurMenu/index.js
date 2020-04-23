@@ -5,7 +5,9 @@ import ListMenu from '../../components/ListMenu';
 
 const OurMenu = () => (
   <section className="our-menu">
-    <Title text={'Our Menu'} textBottom={'Know more'}/>
+    <div className="our-menu__title">
+      <Title text={'Our Menu'} textBottom={'Know more'}/>
+    </div>
     <ListMenu />
   </section>
 );

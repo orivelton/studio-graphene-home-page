@@ -3,7 +3,7 @@
 .home {
   display: flex;
   height: 100vh;
-  background: url('../../assets/img/bck-home.png') no-repeat center;
+  background: url('../../assets/img/bck-home.png') no-repeat center $primary;
   background-size: 100%;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
 }
 
 .request-info {
-  position: absolute;
+  position: fixed;
   background: $white;
   text-decoration: none;
   transform: rotate(-90deg);
@@ -32,5 +32,6 @@
   color: $night-rider;
   padding: 9.4px 9.4px 3.51px 8.49px;
   right: 0;
-  top: 288px;
+  top: 327px;
+  z-index: 1;
 }

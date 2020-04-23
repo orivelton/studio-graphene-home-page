@@ -1,9 +1,13 @@
 * {margin: 0; padding: 0; box-sizing: border-box };
+textarea:focus, input:focus, select:focus{
+  outline: none;
+}
 
 @import './assets/scss/variables.scss';
 @import './assets/scss/utils/text.scss';
 @import './assets/scss/utils/functions.scss';
 @import './App.scss';
+@import '../src/assets/scss/icons.scss';
 
 @font-face {
   font-family: 'DIN Condensed';
