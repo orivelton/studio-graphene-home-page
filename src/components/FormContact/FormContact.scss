@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 25px;
+    margin-top: 30px;
     &:last-of-type {
       margin-right: 0;
     }
@@ -43,12 +44,22 @@
   }
 
   &__btn {
+    display: flex;
+    align-self: flex-end;
     border: 0;
     background: $night-rider;
     color: $cinderella;
     font-size: 18px;
-    padding: 8.5px 16.6px 3.5px 16.6px;
+    padding: 5.5px 16.6px 3.5px 16.6px;
     width: fit-content;
-    font-weight: bold;
+    margin-top: 25px;
+    font-weight: 500;
+  }
+
+  &__icon {
+    font-size: 98px;
+    position: absolute;
+    top: -74px;
+    left: 115px;
   }
 }

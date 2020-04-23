@@ -16,6 +16,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    &--white {
+      margin-left: -36px;
+    }
   }
 
   &__text {
@@ -38,6 +41,7 @@
       left: -18px;
     }
     &--line-white {
+      width: 194px;
       &::before {
         background: $white;
         height: 9px;
