@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="content"
->
+Array [
   <nav
     className="header"
   >
@@ -100,7 +98,7 @@ exports[`renders correctly 1`] = `
         </a>
       </li>
     </ul>
-  </nav>
+  </nav>,
   <section
     className="section home"
   >
@@ -152,7 +150,7 @@ exports[`renders correctly 1`] = `
         Request Info
       </a>
     </div>
-  </section>
+  </section>,
   <section
     className="our-menu"
   >
@@ -184,241 +182,257 @@ exports[`renders correctly 1`] = `
       <li
         className="list-menu__type"
       >
-        <h3
-          className="list-menu__title uppercase"
-        >
-          STARTERS
-        </h3>
         <div
-          className="list-menu__item"
+          className="parallax"
         >
-          <p
-            className="list-menu__name"
+          <h3
+            className="list-menu__title uppercase"
           >
-            QUINOA CROQUETTAS
-          </p>
-          <span
-            className="list-menu__description"
+            STARTERS
+          </h3>
+          <div
+            className="list-menu__item"
           >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
+            <p
+              className="list-menu__name"
+            >
+              QUINOA CROQUETTAS
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            €
-            4.95
-          </p>
-        </div>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
+            <p
+              className="list-menu__name"
+            >
+              CHIFA CHICHARRONES
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            CHIFA CHICHARRONES
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
-        </div>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
-          >
-            CALAMARES
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
-        </div>
-      </li>
-      <li
-        className="list-menu__type"
-      >
-        <h3
-          className="list-menu__title uppercase"
-        >
-          MAIN COURSES
-        </h3>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
-          >
-            EL CLASICO
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
-        </div>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
-          >
-            TIRADITO CALLAO
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
+            <p
+              className="list-menu__name"
+            >
+              CALAMARES
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
         </div>
       </li>
       <li
         className="list-menu__type"
       >
-        <h3
-          className="list-menu__title uppercase"
-        >
-          SIDES
-        </h3>
         <div
-          className="list-menu__item"
+          className="parallax"
         >
-          <p
-            className="list-menu__name"
+          <h3
+            className="list-menu__title uppercase"
           >
-            SUPER POLLO
-          </p>
-          <span
-            className="list-menu__description"
+            MAIN COURSES
+          </h3>
+          <div
+            className="list-menu__item"
           >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
+            <p
+              className="list-menu__name"
+            >
+              EL CLASICO
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            €
-            4.95
-          </p>
-        </div>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
-          >
-            PATATAS FRITAS
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
+            <p
+              className="list-menu__name"
+            >
+              TIRADITO CALLAO
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
         </div>
       </li>
       <li
         className="list-menu__type"
       >
-        <h3
-          className="list-menu__title uppercase"
-        >
-          DESSERTS
-        </h3>
         <div
-          className="list-menu__item"
+          className="parallax"
         >
-          <p
-            className="list-menu__name"
+          <h3
+            className="list-menu__title uppercase"
           >
-            ICECREAM
-          </p>
-          <span
-            className="list-menu__description"
+            SIDES
+          </h3>
+          <div
+            className="list-menu__item"
           >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
+            <p
+              className="list-menu__name"
+            >
+              SUPER POLLO
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            €
-            4.95
-          </p>
+            <p
+              className="list-menu__name"
+            >
+              PATATAS FRITAS
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
         </div>
+      </li>
+      <li
+        className="list-menu__type"
+      >
         <div
-          className="list-menu__item"
+          className="parallax"
         >
-          <p
-            className="list-menu__name"
+          <h3
+            className="list-menu__title uppercase"
           >
-            TIRAMISU
-          </p>
-          <span
-            className="list-menu__description"
+            DESSERTS
+          </h3>
+          <div
+            className="list-menu__item"
           >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
+            <p
+              className="list-menu__name"
+            >
+              ICECREAM
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            €
-            4.95
-          </p>
-        </div>
-        <div
-          className="list-menu__item"
-        >
-          <p
-            className="list-menu__name"
+            <p
+              className="list-menu__name"
+            >
+              TIRAMISU
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
+          <div
+            className="list-menu__item"
           >
-            CHOCOLATE BROWNIE
-          </p>
-          <span
-            className="list-menu__description"
-          >
-            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
-          </span>
-          <p
-            className="list-menu__price"
-          >
-            €
-            4.95
-          </p>
+            <p
+              className="list-menu__name"
+            >
+              CHOCOLATE BROWNIE
+            </p>
+            <span
+              className="list-menu__description"
+            >
+              Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+            </span>
+            <p
+              className="list-menu__price"
+            >
+              €
+              4.95
+            </p>
+          </div>
         </div>
       </li>
     </ul>
-  </section>
+  </section>,
   <section
     className="contact"
   >
@@ -550,7 +564,7 @@ exports[`renders correctly 1`] = `
         </div>
       </form>
     </div>
-  </section>
+  </section>,
   <footer
     className="footer"
   >
@@ -834,6 +848,6 @@ exports[`renders correctly 1`] = `
         </li>
       </ul>
     </div>
-  </footer>
-</div>
+  </footer>,
+]
 `;

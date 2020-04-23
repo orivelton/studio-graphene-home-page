@@ -1,15 +1,13 @@
 const getSection = (selector = 'section') => [...document.querySelectorAll(selector)];
 
 const parallax = () => {
-  const position = -getSection()[1].getBoundingClientRect().top;
-  const style = `
-    margin-top: ${position}px;
-    transition: margin 0.8s ease-in-out
-  `;
-    
-  getSection('.list-menu__type').forEach((item, index) => {
-    if(index === 1 || index === 3) item.setAttribute('style', style);
-  });
+  const position = document.querySelector('.our-menu').getBoundingClientRect().top;
+  const setStyle = (item, index) => item.setAttribute(
+    'style',
+    `margin-top: ${(index === 0 || index === 2) ? position : -position}px`
+  );
+
+  getSection('.parallax').forEach((item, index) => setStyle(item, index));
 }
 
 export { getSection, parallax };

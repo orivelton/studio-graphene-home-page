@@ -18,8 +18,10 @@ const ListMenu = () => {
           const { title, menu} = item;
             return (
               <li className="list-menu__type" key={title}>
-                <h3 className="list-menu__title uppercase">{title}</h3>
-                { menu.map(item => buildItem(item)) }
+                <div className="parallax">
+                  <h3 className="list-menu__title uppercase">{title}</h3>
+                  { menu.map(item => buildItem(item)) }
+                </div>
               </li>
             )
         })
