@@ -56,8 +56,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -76,8 +75,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -96,8 +94,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
       </div>
@@ -129,8 +126,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -149,8 +145,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
       </div>
@@ -182,8 +177,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -202,8 +196,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
       </div>
@@ -235,8 +228,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -255,8 +247,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
         <div
@@ -275,8 +266,7 @@ exports[`renders correctly OurMenu 1`] = `
           <p
             className="list-menu__price"
           >
-            €
-            4.95
+            £4.95
           </p>
         </div>
       </div>

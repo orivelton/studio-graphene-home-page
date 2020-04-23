@@ -10,9 +10,6 @@
     border-right: 1px solid $very-light-grey;
     padding-top: 200px;
     overflow: hidden;
-    &:last-of-type {
-      border: 0;
-    }
 
     &:nth-child(1) {
       padding-top: 186px;
@@ -20,16 +17,15 @@
 
     &:nth-child(2) {
       padding-top: 319px;
-      text-indent: -10px;
     }
 
     &:nth-child(3) {
       padding-top: 278px;
-      text-indent: -8px;
     }
 
     &:nth-child(4) {
       padding-top: 223px;
+      border: 0;
     }
   }
   
@@ -56,15 +52,14 @@
   }
 
   &__price {
-    width: max-content;
+    width: 54px;
     padding: 5px 10px 0;
-    display: flex;
-    justify-content: center;
     border: 2px solid $cinderella;
     margin: 12px 0 45px 0;
+    text-align: center;
   }
 }
 
 .parallax {
-  transition: margin 0.8s ease-in-out
+  transition: margin 0.8s ease-in-out;
 }
