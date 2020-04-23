@@ -1,12 +1,30 @@
 @import '../../assets/scss/helper.scss';
 
 .stamp {
-  background: red;
-  max-width: em(100);
-  height: em(100);
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  display: flex;
+  justify-items: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: $night-rider;
+  position: absolute;
+  top: 11%;
+  left: 15%;
+  &::before {
+    font-size: 150px;
+    position: absolute;
+  }
 
   &__text {
     font-weight: bold;
+    font-family: 'DIN Condensed';
+    font-size: 52px;transform: rotate(-34deg);
+    margin-top: 11px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
   }
 }
