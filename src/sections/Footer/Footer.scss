@@ -46,3 +46,22 @@
   margin-top: 33px;
   letter-spacing: 0.13px;
 }
+
+.social {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
+  &__item {
+    list-style: none;
+    margin-right: 39px;
+    overflow: hidden;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__name {
+    position: absolute;
+    visibility: hidden;
+  }
+}

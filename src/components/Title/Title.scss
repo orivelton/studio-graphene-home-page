@@ -53,6 +53,7 @@
 
   &--secondary {
     color: $white;
+    padding-right: 0;
     .title__text, .title__top {
       align-items: flex-end;
       line-height: 1;

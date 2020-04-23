@@ -32,18 +32,26 @@ const Footer = () => {
 
       <div className="footer__box">
         <p className="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
-        <ul>
-          <li>
-            <a href="/"><span class="icon iconfacebook-icon"></span></a>
+        <ul className="social">
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconfacebook-icon" title="Go to Facebook">
+              <span className="social__name">Facebook</span>
+            </a>
           </li>
-          <li>
-            <a href="/"><span class="icon icontwitter-icon"></span></a>
+          <li className="social__item">
+            <a href="/" className="social__icon icon icontwitter-icon" title="Go to twitter">
+              <span className="social__name">twitter</span>
+            </a>
           </li>
-          <li>
-            <a href="/"><span class="icon iconinstagram-icon"></span></a>
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconinstagram-icon" title="Go to instagram">
+              <span className="social__name">instagram</span>
+            </a>
           </li>
-          <li>
-            <a href="/"><span class="icon iconLinkedin-icon"></span></a>
+          <li className="social__item">
+            <a href="/" className="social__icon icon iconLinkedin-icon" title="Go to Linkedin">
+              <span className="social__name">Linkedin</span>
+            </a>
           </li>
         </ul>
       </div>
