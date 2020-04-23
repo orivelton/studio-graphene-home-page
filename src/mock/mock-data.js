@@ -1,3 +1,26 @@
+const linksFooter = [
+  {
+    title: 'Section',
+    links: ['Subsection', 'Subsection', 'Subsection', 'Subsection']
+  },
+  {
+    title: 'Section',
+    links: ['Subsection', 'Subsection', 'Subsection', 'Subsection']
+  },
+  {
+    title: 'Section',
+    links: ['Subsection', 'Subsection', 'Subsection', 'Subsection']
+  },
+  {
+    title: 'Section',
+    links: ['Subsection', 'Subsection', 'Subsection', 'Subsection']
+  },
+  {
+    title: 'Section',
+    links: ['Subsection', 'Subsection', 'Subsection', 'Subsection']
+  }
+];
+
 const listMenu = [
   {
     title: 'STARTERS', 
@@ -26,9 +49,22 @@ const listMenu = [
     menu: [
       {title: 'ICECREAM', description: 'Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)', price: '4.95'},
       {title: 'TIRAMISU', description: 'Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)', price: '4.95'},
-      {title: 'CHOCOLATE BROWNIE', description: 'Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)', price: '4.95'},
+      {title: 'CHOCOLATE BROWNIE', description: 'Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)', price: '4.95'}
     ]
   },
 ];
 
-export default listMenu;
+const itemMenu = [
+  {name: 'About', href: '/', title: 'Link to About'},
+  {name: 'Community', href: '/', title: 'Link to Community'},
+  {name: 'Location', href: '/', title: 'Link to Location'},
+  {name: 'Our Menu', href: '/', title: 'Link to Our Menu'},
+  {name: 'Recipes', href: '/', title: 'Link to Recipes'}
+];
+
+const itemMenuRight = [
+  {name: 'Contact', href: '/', title: 'Link to Contact'},
+  {name: 'Login', href: '/', title: 'Link to Login'}
+];
+
+export { linksFooter, listMenu, itemMenu, itemMenuRight};

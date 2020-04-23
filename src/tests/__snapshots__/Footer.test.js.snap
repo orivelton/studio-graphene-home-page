@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Footer 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="footer__box"
+  >
+    <div
+      className="footer__links"
+    >
+      <div
+        className="pages"
+      >
+        <p
+          className="pages__title uppercase"
+        >
+          Section 1
+        </p>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+      </div>
+      <div
+        className="pages"
+      >
+        <p
+          className="pages__title uppercase"
+        >
+          Section 2
+        </p>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+      </div>
+      <div
+        className="pages"
+      >
+        <p
+          className="pages__title uppercase"
+        >
+          Section 3
+        </p>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+      </div>
+      <div
+        className="pages"
+      >
+        <p
+          className="pages__title uppercase"
+        >
+          Section 4
+        </p>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+      </div>
+      <div
+        className="pages"
+      >
+        <p
+          className="pages__title uppercase"
+        >
+          Section 5
+        </p>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+        <a
+          className="pages__link"
+          href="/"
+          title="Go to Subsection"
+        >
+          Subsection
+        </a>
+      </div>
+    </div>
+    <div>
+      <div
+        className="title title--secondary uppercase"
+      >
+        <h3
+          className="title__top"
+        >
+          THIS IS THE
+          <span
+            className="title__text"
+          >
+            Logo
+          </span>
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer__box"
+  >
+    <p
+      className="copyright"
+    >
+      2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .
+    </p>
+    <ul
+      className="social"
+    >
+      <li
+        className="social__item"
+      >
+        <a
+          className="social__icon icon iconfacebook-icon"
+          href="/"
+          title="Go to Facebook"
+        >
+          <span
+            className="social__name"
+          >
+            Facebook
+          </span>
+        </a>
+      </li>
+      <li
+        className="social__item"
+      >
+        <a
+          className="social__icon icon icontwitter-icon"
+          href="/"
+          title="Go to twitter"
+        >
+          <span
+            className="social__name"
+          >
+            twitter
+          </span>
+        </a>
+      </li>
+      <li
+        className="social__item"
+      >
+        <a
+          className="social__icon icon iconinstagram-icon"
+          href="/"
+          title="Go to instagram"
+        >
+          <span
+            className="social__name"
+          >
+            instagram
+          </span>
+        </a>
+      </li>
+      <li
+        className="social__item"
+      >
+        <a
+          className="social__icon icon iconLinkedin-icon"
+          href="/"
+          title="Go to Linkedin"
+        >
+          <span
+            className="social__name"
+          >
+            Linkedin
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+`;

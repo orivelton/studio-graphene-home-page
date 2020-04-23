@@ -1,6 +1,6 @@
 import React from 'react';
 import './ListMenu.scss';
-import listMenu from '../../mock/listMenu';
+import { listMenu } from '../../mock/mock-data';
 
 const ListMenu = () => {
 

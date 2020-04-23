@@ -1,7 +1,7 @@
 import React from 'react';
-import {itemMenu, itemMenuRight} from '../../mock/menu';
 import './Nav.scss';
 import Logo from '../Logo';
+import { itemMenu, itemMenuRight } from '../../mock/mock-data';
 
 const Nav = () => {
   return (
