@@ -1,15 +1,6 @@
 @import './assets/scss/variables.scss';
 @import './assets/scss/utils/text.scss';
 @import '../src/assets/scss/icons.scss';
-
-* {margin: 0; padding: 0; box-sizing: border-box };
-textarea:focus,
-input:focus,
-select:focus {
-  outline: none;
-}
-
-
 @font-face {
   font-family: 'DIN Condensed';
   src: url('./assets/fonts/DINCondensed-Bold.woff2') format('woff2'),
@@ -38,6 +29,12 @@ select:focus {
   font-display: block;
 }
 
+* {margin: 0; padding: 0; box-sizing: border-box };
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
 
 body {
   font-family: 'DIN Condensed', Arial, sans-serif;

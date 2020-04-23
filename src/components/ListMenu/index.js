@@ -7,7 +7,7 @@ const ListMenu = () => {
     <div className="list-menu__item" key={title}>
       <p className="list-menu__name">{title}</p>
       <span className="list-menu__description">{description}</span>
-      <p className="list-menu__price">€{price}</p>
+      <p className="list-menu__price">{`£${price}`}</p>
     </div>
   );
 
