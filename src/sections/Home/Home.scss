@@ -3,8 +3,7 @@
 .home {
   display: flex;
   height: 100vh;
-  background: url('../../assets/img/bck-home.png') no-repeat center $primary;
-  background-size: 100%;
+  background: url('../../assets/img/bck-home.svg') no-repeat center 0 $primary;
   justify-content: center;
   align-items: center;
 }

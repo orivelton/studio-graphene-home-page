@@ -3,7 +3,6 @@ import './ListMenu.scss';
 import { listMenu } from '../../mock/mock-data';
 
 const ListMenu = () => {
-
   const buildItem = ({title, description, price}) => (
     <div className="list-menu__item" key={title}>
       <p className="list-menu__name">{title}</p>

@@ -1,5 +1,12 @@
 @import '../../assets/scss/helper.scss';
 
+@mixin transition-width {
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
 .count-section {
   position: fixed;
   display: flex;
@@ -7,13 +14,10 @@
   top: 297px;
   left: 0;
   z-index: 5;
-};
+}
 
 .current-section {
-  -webkit-transition: width 0.5s ease-in-out;
-  -moz-transition: width 0.5s ease-in-out;
-  -o-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
+  @include transition-width;
   width: 15px;
   height: 18px;
   font-size: 18px;
@@ -34,10 +38,7 @@
   }
   
   &--double {
-    -webkit-transition: width 0.5s ease-in-out;
-    -moz-transition: width 0.5s ease-in-out;
-    -o-transition: width 0.5s ease-in-out;
-    transition: width 0.5s ease-in-out;
+    @include transition-width;
     width: 30px;
   }
-};
+}

@@ -746,21 +746,19 @@ exports[`renders correctly 1`] = `
           </a>
         </div>
       </div>
-      <div>
-        <div
-          className="title title--secondary uppercase"
+      <div
+        className="title title--secondary uppercase"
+      >
+        <h3
+          className="title__top"
         >
-          <h3
-            className="title__top"
+          This is the
+          <span
+            className="title__text"
           >
-            THIS IS THE
-            <span
-              className="title__text"
-            >
-              Logo
-            </span>
-          </h3>
-        </div>
+            Logo
+          </span>
+        </h3>
       </div>
     </div>
     <div
