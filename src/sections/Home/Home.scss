@@ -24,7 +24,7 @@
 }
 
 .request-info {
-  position: absolute;
+  position: fixed;
   background: $white;
   text-decoration: none;
   transform: rotate(-90deg);
@@ -33,4 +33,5 @@
   padding: 9.4px 9.4px 3.51px 8.49px;
   right: 0;
   top: 288px;
+  z-index: 1;
 }
