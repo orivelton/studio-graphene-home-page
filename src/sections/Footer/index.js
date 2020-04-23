@@ -34,16 +34,16 @@ const Footer = () => {
         <p className="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
         <ul>
           <li>
-            <a href="/"><span class="icon iconinstagram-icon"></span></a>
-          </li>
-          <li>
-            <a href="/"><span class="icon iconLinkedin-icon"></span></a>
+            <a href="/"><span class="icon iconfacebook-icon"></span></a>
           </li>
           <li>
             <a href="/"><span class="icon icontwitter-icon"></span></a>
           </li>
           <li>
-            <a href="/"><span class="icon iconfacebook-icon"></span></a>
+            <a href="/"><span class="icon iconinstagram-icon"></span></a>
+          </li>
+          <li>
+            <a href="/"><span class="icon iconLinkedin-icon"></span></a>
           </li>
         </ul>
       </div>

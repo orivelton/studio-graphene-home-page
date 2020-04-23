@@ -11,7 +11,7 @@ const App = () => {
     <div className="content">
       <Nav />
       <Home />
-      <Community />
+      {/* <Community /> */}
       <OurMenu />
       <Contact />
       <Footer />
