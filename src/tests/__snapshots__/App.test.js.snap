@@ -1,0 +1,841 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="content"
+>
+  <nav
+    className="header"
+  >
+    <ul
+      className="navigation"
+    >
+      <li>
+        <a
+          className="logo uppercase"
+          href="/"
+        >
+          Logo
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to About"
+        >
+          About
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Community"
+        >
+          Community
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Location"
+        >
+          Location
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Our Menu"
+        >
+          Our Menu
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Recipes"
+        >
+          Recipes
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="navigation"
+    >
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Contact"
+        >
+          Contact
+        </a>
+      </li>
+      <li
+        className="navigation__item"
+      >
+        <a
+          className="navigation__link uppercase"
+          href="/"
+          title="Link to Login"
+        >
+          Login
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section
+    className="section home"
+  >
+    <div
+      className="count-section"
+    >
+      <span
+        className="current-section current-section--double"
+      >
+        01
+      </span>
+      <span
+        className="current-section"
+      />
+      <span
+        className="current-section"
+      />
+    </div>
+    <div
+      className="big-title uppercase"
+    >
+      <div
+        className="stamp uppercase icon iconstamp"
+      >
+        <p
+          className="stamp__text"
+        >
+          Logo
+        </p>
+      </div>
+      <h1
+        className="big-title__top"
+      >
+        The Best Foodie
+        <span
+          className="big-title__top--large"
+        >
+          Experience
+        </span>
+      </h1>
+      <h2>
+        Now in London
+      </h2>
+      <a
+        className="request-info uppercase"
+        href="/"
+        title="Request more Info"
+      >
+        Request Info
+      </a>
+    </div>
+  </section>
+  <section
+    className="our-menu"
+  >
+    <div
+      className="our-menu__title"
+    >
+      <div
+        className="title uppercase"
+      >
+        <h3
+          className="title__top"
+        >
+          <span
+            className="title__text"
+          >
+            Our Menu
+          </span>
+        </h3>
+        <h4
+          className="title__text-bottom"
+        >
+          Know more
+        </h4>
+      </div>
+    </div>
+    <ul
+      className="list-menu"
+    >
+      <li
+        className="list-menu__type"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          STARTERS
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            QUINOA CROQUETTAS
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CHIFA CHICHARRONES
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CALAMARES
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </li>
+      <li
+        className="list-menu__type"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          MAIN COURSES
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            EL CLASICO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            TIRADITO CALLAO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </li>
+      <li
+        className="list-menu__type"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          SIDES
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            SUPER POLLO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            PATATAS FRITAS
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </li>
+      <li
+        className="list-menu__type"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          DESSERTS
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            ICECREAM
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            TIRAMISU
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CHOCOLATE BROWNIE
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section
+    className="contact"
+  >
+    <div
+      className="contact__box"
+    >
+      <div
+        className="title uppercase"
+      >
+        <h3
+          className="title__top title__top--white"
+        >
+          COLLABORATE
+          <span
+            className="title__text title__text--line-white "
+          >
+            WITH US
+          </span>
+        </h3>
+      </div>
+      <p
+        className="contact__description"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p
+        className="contact__description"
+      >
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      </p>
+    </div>
+    <div
+      className="contact__box"
+    >
+      <form
+        className="form"
+      >
+        <span
+          className="icon icondetail02_2x form__icon"
+        />
+        <div
+          className="form__box"
+        >
+          <label
+            className="form__label"
+            htmlFor="name"
+          >
+            Name
+          </label>
+          <input
+            className="form__input"
+            id="name"
+            placeholder="Name"
+            type="text"
+          />
+          <label
+            className="form__label"
+            htmlFor="phone"
+          >
+            Phone
+          </label>
+          <input
+            className="form__input"
+            id="phone"
+            placeholder="phone"
+            type="tel"
+          />
+          <label
+            className="form__label"
+            htmlFor="experience"
+          >
+            Experience
+          </label>
+          <select
+            className="form__select"
+            id="experience"
+          >
+            <option>
+              Select
+            </option>
+          </select>
+        </div>
+        <div
+          className="form__box"
+        >
+          <label
+            className="form__label"
+            htmlFor="surname"
+          >
+            Surname
+          </label>
+          <input
+            className="form__input"
+            id="surname"
+            placeholder="Surname"
+            type="text"
+          />
+          <label
+            className="form__label"
+            htmlFor="email"
+          >
+            EMAIL ADDRESS
+          </label>
+          <input
+            className="form__input"
+            id="email"
+            placeholder="email"
+            type="email"
+          />
+          <label
+            className="form__label"
+            htmlFor="hear"
+          >
+            Wherw did you hear about us?
+          </label>
+          <select
+            className="form__select"
+            id="hear"
+          >
+            <option>
+              Select
+            </option>
+          </select>
+          <button
+            className="form__btn uppercase"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer
+    className="footer"
+  >
+    <div
+      className="footer__box"
+    >
+      <div
+        className="footer__links"
+      >
+        <div
+          className="pages"
+        >
+          <p
+            className="pages__title uppercase"
+          >
+            Section 1
+          </p>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+        </div>
+        <div
+          className="pages"
+        >
+          <p
+            className="pages__title uppercase"
+          >
+            Section 2
+          </p>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+        </div>
+        <div
+          className="pages"
+        >
+          <p
+            className="pages__title uppercase"
+          >
+            Section 3
+          </p>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+        </div>
+        <div
+          className="pages"
+        >
+          <p
+            className="pages__title uppercase"
+          >
+            Section 4
+          </p>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+        </div>
+        <div
+          className="pages"
+        >
+          <p
+            className="pages__title uppercase"
+          >
+            Section 5
+          </p>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+          <a
+            className="pages__link"
+            href="/"
+            title="Go to Subsection"
+          >
+            Subsection
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          className="title title--secondary uppercase"
+        >
+          <h3
+            className="title__top"
+          >
+            THIS IS THE
+            <span
+              className="title__text"
+            >
+              Logo
+            </span>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="footer__box"
+    >
+      <p
+        className="copyright"
+      >
+        2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .
+      </p>
+      <ul
+        className="social"
+      >
+        <li
+          className="social__item"
+        >
+          <a
+            className="social__icon icon iconfacebook-icon"
+            href="/"
+            title="Go to Facebook"
+          >
+            <span
+              className="social__name"
+            >
+              Facebook
+            </span>
+          </a>
+        </li>
+        <li
+          className="social__item"
+        >
+          <a
+            className="social__icon icon icontwitter-icon"
+            href="/"
+            title="Go to twitter"
+          >
+            <span
+              className="social__name"
+            >
+              twitter
+            </span>
+          </a>
+        </li>
+        <li
+          className="social__item"
+        >
+          <a
+            className="social__icon icon iconinstagram-icon"
+            href="/"
+            title="Go to instagram"
+          >
+            <span
+              className="social__name"
+            >
+              instagram
+            </span>
+          </a>
+        </li>
+        <li
+          className="social__item"
+        >
+          <a
+            className="social__icon icon iconLinkedin-icon"
+            href="/"
+            title="Go to Linkedin"
+          >
+            <span
+              className="social__name"
+            >
+              Linkedin
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;
