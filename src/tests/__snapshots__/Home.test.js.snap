@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Home 1`] = `
+<section
+  className="section home"
+>
+  <div
+    className="count-section"
+  >
+    <span
+      className="current-section current-section--double"
+    >
+      01
+    </span>
+    <span
+      className="current-section"
+    />
+    <span
+      className="current-section"
+    />
+  </div>
+  <div
+    className="big-title uppercase"
+  >
+    <div
+      className="stamp uppercase icon iconstamp"
+    >
+      <p
+        className="stamp__text"
+      >
+        Logo
+      </p>
+    </div>
+    <h1
+      className="big-title__top"
+    >
+      The Best Foodie
+      <span
+        className="big-title__top--large"
+      >
+        Experience
+      </span>
+    </h1>
+    <h2>
+      Now in London
+    </h2>
+    <a
+      className="request-info uppercase"
+      href="/"
+      title="Request more Info"
+    >
+      Request Info
+    </a>
+  </div>
+</section>
+`;

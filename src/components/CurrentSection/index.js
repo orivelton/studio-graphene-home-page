@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './CurrentSection.scss';
-import { getSection, parallax } from '../../helpers';
+import { getSection, parallax } from '../../helpers/utils';
 
 const CurrentSection = () => {
   const [section, setSection] = useState(1);
@@ -22,12 +22,11 @@ const CurrentSection = () => {
     <div className="count-section">
       {
         [...Array(3)].map((item, index) => {
-          const isCurrentSectio = section === ++index;
+          const isCurrentSection = section === ++index;
 
-          return(
-            <span key={`${index}${index}`} className={isCurrentSectio ? 'current-section current-section--double' : 'current-section'}>
-              { isCurrentSectio && ('0' + section).slice(-2)}
-              
+          return (
+            <span key={`${index}${index}`} className={isCurrentSection ? 'current-section current-section--double' : 'current-section'}>
+              { isCurrentSection && ('0' + section).slice(-2)}
             </span>
           )
         })

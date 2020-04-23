@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly OurMenu 1`] = `
+<section
+  className="our-menu"
+>
+  <div
+    className="our-menu__title"
+  >
+    <div
+      className="title uppercase"
+    >
+      <h3
+        className="title__top"
+      >
+        <span
+          className="title__text"
+        >
+          Our Menu
+        </span>
+      </h3>
+      <h4
+        className="title__text-bottom"
+      >
+        Know more
+      </h4>
+    </div>
+  </div>
+  <ul
+    className="list-menu"
+  >
+    <li
+      className="list-menu__type"
+    >
+      <div
+        className="parallax"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          STARTERS
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            QUINOA CROQUETTAS
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CHIFA CHICHARRONES
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CALAMARES
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      className="list-menu__type"
+    >
+      <div
+        className="parallax"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          MAIN COURSES
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            EL CLASICO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            TIRADITO CALLAO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      className="list-menu__type"
+    >
+      <div
+        className="parallax"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          SIDES
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            SUPER POLLO
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            PATATAS FRITAS
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      className="list-menu__type"
+    >
+      <div
+        className="parallax"
+      >
+        <h3
+          className="list-menu__title uppercase"
+        >
+          DESSERTS
+        </h3>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            ICECREAM
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            TIRAMISU
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+        <div
+          className="list-menu__item"
+        >
+          <p
+            className="list-menu__name"
+          >
+            CHOCOLATE BROWNIE
+          </p>
+          <span
+            className="list-menu__description"
+          >
+            Quinoa and cheddar croquettas with aji rocotto & pineapple salsa (v)
+          </span>
+          <p
+            className="list-menu__price"
+          >
+            €
+            4.95
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
+`;

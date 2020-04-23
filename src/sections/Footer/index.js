@@ -5,7 +5,11 @@ import { linksFooter } from '../../mock/mock-data';
 
 const Footer = () => {
 
-  const buildItemFooter = (links) => links.map((item, index) => <a key={index} className="pages__link" href="/" title={`Go to ${item}`}>{item}</a>);
+  const buildItemFooter = (links) => links.map((item, index) =>
+    <a key={index} className="pages__link" href="/" title={`Go to ${item}`}>
+      {item}
+    </a>
+  );
 
   return (
     <footer className="footer">
@@ -14,20 +18,18 @@ const Footer = () => {
           {
             linksFooter.map((item, index) => {
               const { title, links } = item;
+
               return (
                 <div className="pages" key={index}>
                   <p className="pages__title uppercase">{`${title} ${++index}`}</p>
                   {buildItemFooter(links)}
                 </div>
-                
               )
             })
           }
 
         </div>
-        <div>
-          <Title textTop={'THIS IS THE'} text={'Logo'} colorSecondary />
-        </div>
+        <Title textTop={'This is the'} text={'Logo'} colorSecondary />
       </div>
 
       <div className="footer__box">

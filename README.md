@@ -1,8 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Studio Graphene Home Page](https://orivelton.github.io/studio-graphene-home-page/)
+
+[DEMO](https://orivelton.github.io/studio-graphene-home-page/)
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+⚠️ You can use yarn or npm.
 
 ### `yarn start`
 
@@ -27,42 +32,109 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `Tree of project`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```shell
+.
+├── README.md
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.js
+│   ├── App.test.js
+│   ├── assets
+│   │   ├── fonts
+│   │   │   ├── DINCondensed-Bold.woff
+│   │   │   ├── DINCondensed-Bold.woff2
+│   │   │   ├── GillSans.woff
+│   │   │   ├── GillSans.woff2
+│   │   │   ├── icon.eot
+│   │   │   ├── icon.svg
+│   │   │   ├── icon.ttf
+│   │   │   └── icon.woff
+│   │   ├── img
+│   │   │   ├── bck-home.png
+│   │   │   └── bck-home.svg
+│   │   └── scss
+│   │       ├── helper.scss
+│   │       ├── icons.scss
+│   │       ├── utils
+│   │       │   └── text.scss
+│   │       └── variables.scss
+│   ├── components
+│   │   ├── CurrentSection
+│   │   │   ├── CurrentSection.scss
+│   │   │   └── index.js
+│   │   ├── FormContact
+│   │   │   ├── FormContact.scss
+│   │   │   └── index.js
+│   │   ├── ListMenu
+│   │   │   ├── ListMenu.scss
+│   │   │   └── index.js
+│   │   ├── Logo
+│   │   │   ├── Logo.scss
+│   │   │   └── index.js
+│   │   ├── Nav
+│   │   │   ├── Nav.scss
+│   │   │   └── index.js
+│   │   ├── Stamp
+│   │   │   ├── Stamp.scss
+│   │   │   └── index.js
+│   │   └── Title
+│   │       ├── Title.scss
+│   │       └── index.js
+│   ├── helpers
+│   │   └── utils.js
+│   ├── index.js
+│   ├── index.scss
+│   ├── mock
+│   │   └── mock-data.js
+│   ├── sections
+│   │   ├── Contact
+│   │   │   ├── Contact.scss
+│   │   │   └── index.js
+│   │   ├── Footer
+│   │   │   ├── Footer.scss
+│   │   │   └── index.js
+│   │   ├── Home
+│   │   │   ├── Home.scss
+│   │   │   └── index.js
+│   │   └── OurMenu
+│   │       ├── OurMenu.scss
+│   │       └── index.js
+│   ├── serviceWorker.js
+│   ├── setupTests.js
+│   └── tests
+│       ├── App.test.js
+│       ├── Contact.test.js
+│       ├── CurrentSection.test.js
+│       ├── Footer.test.js
+│       ├── FormContact.test.js
+│       ├── Home.test.js
+│       ├── ListMenu.test.js
+│       ├── Logo.test.js
+│       ├── Nav.test.js
+│       ├── OurMenu.test.js
+│       ├── Stamp.test.js
+│       ├── Title.test.js
+│       └── __snapshots__
+│           ├── App.test.js.snap
+│           ├── Contact.test.js.snap
+│           ├── CurrentSection.test.js.snap
+│           ├── Footer.test.js.snap
+│           ├── FormContact.test.js.snap
+│           ├── Home.test.js.snap
+│           ├── ListMenu.test.js.snap
+│           ├── Logo.test.js.snap
+│           ├── Nav.test.js.snap
+│           ├── OurMenu.test.js.snap
+│           ├── Stamp.test.js.snap
+│           └── Title.test.js.snap
+└── yarn.lock
+```

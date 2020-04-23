@@ -40,6 +40,7 @@
       opacity: 1;
       left: -18px;
     }
+
     &--line-white {
       width: 194px;
       &::before {
@@ -58,7 +59,9 @@
   &--secondary {
     color: $white;
     padding-right: 0;
-    .title__text, .title__top {
+
+    .title__text, 
+    .title__top {
       align-items: flex-end;
       line-height: 1;
       &::before {

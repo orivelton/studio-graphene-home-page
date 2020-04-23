@@ -1,13 +1,14 @@
+@import './assets/scss/variables.scss';
+@import './assets/scss/utils/text.scss';
+@import '../src/assets/scss/icons.scss';
+
 * {margin: 0; padding: 0; box-sizing: border-box };
-textarea:focus, input:focus, select:focus{
+textarea:focus,
+input:focus,
+select:focus {
   outline: none;
 }
 
-@import './assets/scss/variables.scss';
-@import './assets/scss/utils/text.scss';
-@import './assets/scss/utils/functions.scss';
-@import './App.scss';
-@import '../src/assets/scss/icons.scss';
 
 @font-face {
   font-family: 'DIN Condensed';
@@ -25,7 +26,23 @@ textarea:focus, input:focus, select:focus{
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'icon';
+  src:  url('./assets/fonts/icon.eot?38acrn');
+  src:  url('./assets/fonts/icon.eot?38acrn#iefix') format('embedded-opentype'),
+    url('./assets/fonts/icon.ttf?38acrn') format('truetype'),
+    url('./assets/fonts/icon.woff?38acrn') format('woff'),
+    url('./assets/fonts/icon.svg?38acrn#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 
 body {
   font-family: 'DIN Condensed', Arial, sans-serif;
+}
+
+.section {
+  padding: 0 20px;
 }
