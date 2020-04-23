@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Contact 1`] = `
+<section
+  className="contact"
+>
+  <div
+    className="contact__box"
+  >
+    <div
+      className="title uppercase"
+    >
+      <h3
+        className="title__top title__top--white"
+      >
+        COLLABORATE
+        <span
+          className="title__text title__text--line-white "
+        >
+          WITH US
+        </span>
+      </h3>
+    </div>
+    <p
+      className="contact__description"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <p
+      className="contact__description"
+    >
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+    </p>
+  </div>
+  <div
+    className="contact__box"
+  >
+    <form
+      className="form"
+    >
+      <span
+        className="icon icondetail02_2x form__icon"
+      />
+      <div
+        className="form__box"
+      >
+        <label
+          className="form__label"
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          className="form__input"
+          id="name"
+          placeholder="Name"
+          type="text"
+        />
+        <label
+          className="form__label"
+          htmlFor="phone"
+        >
+          Phone
+        </label>
+        <input
+          className="form__input"
+          id="phone"
+          placeholder="phone"
+          type="tel"
+        />
+        <label
+          className="form__label"
+          htmlFor="experience"
+        >
+          Experience
+        </label>
+        <select
+          className="form__select"
+          id="experience"
+        >
+          <option>
+            Select
+          </option>
+        </select>
+      </div>
+      <div
+        className="form__box"
+      >
+        <label
+          className="form__label"
+          htmlFor="surname"
+        >
+          Surname
+        </label>
+        <input
+          className="form__input"
+          id="surname"
+          placeholder="Surname"
+          type="text"
+        />
+        <label
+          className="form__label"
+          htmlFor="email"
+        >
+          EMAIL ADDRESS
+        </label>
+        <input
+          className="form__input"
+          id="email"
+          placeholder="email"
+          type="email"
+        />
+        <label
+          className="form__label"
+          htmlFor="hear"
+        >
+          Wherw did you hear about us?
+        </label>
+        <select
+          className="form__select"
+          id="hear"
+        >
+          <option>
+            Select
+          </option>
+        </select>
+        <button
+          className="form__btn uppercase"
+        >
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+`;
