@@ -21,6 +21,7 @@
 
 .header {
   position: fixed;
+  z-index: 5;
   display: flex;
   width: 100%;
   flex-direction: row;

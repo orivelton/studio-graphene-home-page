@@ -5,7 +5,7 @@ import Title from '../../components/Title';
 
 const Footer = () => {
 
-  const buildItemFooter = (links) => links.map(item => <a className="pages__link" href="/" title={`Go to ${item}`}>{item}</a>);
+  const buildItemFooter = (links) => links.map((item, index) => <a key={index} className="pages__link" href="/" title={`Go to ${item}`}>{item}</a>);
 
   return (
     <footer className="footer">
@@ -14,9 +14,8 @@ const Footer = () => {
           {
             linksFooter.map((item, index) => {
               const { title, links } = item;
-
               return (
-                <div className="pages">
+                <div className="pages" key={index}>
                   <p className="pages__title uppercase">{`${title} ${++index}`}</p>
                   {buildItemFooter(links)}
                 </div>
@@ -32,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__box">
-        <p class="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
+        <p className="copyright">2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
         <ul>
           Social
         </ul>
