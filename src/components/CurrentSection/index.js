@@ -5,6 +5,12 @@ const CurrentSection = () => {
   const [section, setSection] = useState(1);
 
   const getSection = () => [...document.querySelectorAll('section')];
+
+  const paraxlax = () => {
+    const position = getSection()[1].getBoundingClientRect().top + -100;
+    document.querySelectorAll('.list-menu__type')[1].setAttribute('style', `margin-top: -${position}px`);
+    document.querySelectorAll('.list-menu__type')[2].setAttribute('style', `margin-top: -${position}px`);
+  }
   
   const handleScroll = () => {
     const screen = document.documentElement.clientHeight / 2 - 100;
@@ -13,14 +19,18 @@ const CurrentSection = () => {
       const { top, bottom } = item.getBoundingClientRect();
       top <= screen && bottom >= screen && setSection(++index);
     });
+
+    paraxlax();
   }
+
+  
 
   useEffect(() => window.addEventListener('scroll', handleScroll), []);
 
   return (
     <div className="count-section">
       {
-        [...Array(4)].map((item, index) => {
+        [...Array(3)].map((item, index) => {
           const isCurrentSectio = section === ++index;
 
           return(

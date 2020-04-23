@@ -4,7 +4,7 @@ import StyleSquare from '../StyleSquare';
 
 const FormContact = () => (
   <form className="form">
-    <span class="icon icondetail02_2x form__icon"></span>
+    <span className="icon icondetail02_2x form__icon"></span>
     <div className="form__box">
       <label className="form__label" htmlFor="name">Name</label>
       <input className="form__input" id="name" type="text" placeholder="Name"/>
