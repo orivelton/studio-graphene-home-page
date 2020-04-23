@@ -1,5 +1,8 @@
 @import '../../assets/scss/helper.scss';
 
 .logo {
-  padding: em(28) em(40);
+  padding: 24px 40px;
+  font-size: 28px;
+  text-decoration: none;
+  color: $night-rider;
 }

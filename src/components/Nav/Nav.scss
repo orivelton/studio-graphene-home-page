@@ -2,6 +2,7 @@
 
 .navigation {
   display: flex;
+  align-items: center;
   &__item {
     list-style: none;
   }
@@ -9,7 +10,7 @@
   &__link {
     display: flex;
     text-decoration: none;
-    padding: em(28) em(40);
+    padding: 24px 40px;
     color: $night-rider;
   }
 }
