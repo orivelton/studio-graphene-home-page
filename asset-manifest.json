@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/studio-graphene-home-page/static/css/main.1f88c0c2.chunk.css",
+    "main.css": "/studio-graphene-home-page/static/css/main.f97489a0.chunk.css",
     "main.js": "/studio-graphene-home-page/static/js/main.d9205148.chunk.js",
     "main.js.map": "/studio-graphene-home-page/static/js/main.d9205148.chunk.js.map",
     "runtime-main.js": "/studio-graphene-home-page/static/js/runtime-main.78f2d223.js",
@@ -8,9 +8,9 @@
     "static/js/2.bfa6ec6d.chunk.js": "/studio-graphene-home-page/static/js/2.bfa6ec6d.chunk.js",
     "static/js/2.bfa6ec6d.chunk.js.map": "/studio-graphene-home-page/static/js/2.bfa6ec6d.chunk.js.map",
     "index.html": "/studio-graphene-home-page/index.html",
-    "precache-manifest.3397cf0ca5de03d9f6df96bfe462b115.js": "/studio-graphene-home-page/precache-manifest.3397cf0ca5de03d9f6df96bfe462b115.js",
+    "precache-manifest.47f984a4cf5c4d9f745f3021b3405e45.js": "/studio-graphene-home-page/precache-manifest.47f984a4cf5c4d9f745f3021b3405e45.js",
     "service-worker.js": "/studio-graphene-home-page/service-worker.js",
-    "static/css/main.1f88c0c2.chunk.css.map": "/studio-graphene-home-page/static/css/main.1f88c0c2.chunk.css.map",
+    "static/css/main.f97489a0.chunk.css.map": "/studio-graphene-home-page/static/css/main.f97489a0.chunk.css.map",
     "static/js/2.bfa6ec6d.chunk.js.LICENSE.txt": "/studio-graphene-home-page/static/js/2.bfa6ec6d.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/studio-graphene-home-page/static/media/icon.d1ccd8d8.ttf",
     "static/media/Home.scss": "/studio-graphene-home-page/static/media/bck-home.4e127eca.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.78f2d223.js",
     "static/js/2.bfa6ec6d.chunk.js",
-    "static/css/main.1f88c0c2.chunk.css",
+    "static/css/main.f97489a0.chunk.css",
     "static/js/main.d9205148.chunk.js"
   ]
 }

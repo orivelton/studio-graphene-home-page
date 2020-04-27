@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d6d1c2ca0ee1284670938ef26741264",
+    "revision": "9b0ec768942f9f959203a8bbf961dd62",
     "url": "/studio-graphene-home-page/index.html"
   },
   {
-    "revision": "750356e3b0f1771f4046",
-    "url": "/studio-graphene-home-page/static/css/main.1f88c0c2.chunk.css"
+    "revision": "db88e4db439842daba84",
+    "url": "/studio-graphene-home-page/static/css/main.f97489a0.chunk.css"
   },
   {
     "revision": "f500a68bf8f8340b07a2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/studio-graphene-home-page/static/js/2.bfa6ec6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "750356e3b0f1771f4046",
+    "revision": "db88e4db439842daba84",
     "url": "/studio-graphene-home-page/static/js/main.d9205148.chunk.js"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/studio-graphene-home-page/precache-manifest.3397cf0ca5de03d9f6df96bfe462b115.js"
+  "/studio-graphene-home-page/precache-manifest.47f984a4cf5c4d9f745f3021b3405e45.js"
 );
 
 self.addEventListener('message', (event) => {
